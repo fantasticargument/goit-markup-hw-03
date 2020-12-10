@@ -163,7 +163,8 @@ img {
 
 /* ================END HEDER================ */
 /* ==================HERO================== */
-.hero
+
+.hero-section
 {
     background-color: var(--background-primery);
     display: flex;
@@ -172,7 +173,7 @@ img {
     margin-bottom: 95px;
 }
 
-.hero-section
+.hero
 {
     display: flex;
     flex-direction: column;
@@ -225,7 +226,7 @@ img {
 .specionalization-conteiner
 {
     display: flex;
-    flex-direction: column-reverse;    
+    flex-direction: column;    
 }
     
 .specionalization-item-text
@@ -321,7 +322,7 @@ img {
 
 .card-command-content
 {
-    padding: 30;
+    padding: 30px;
 }
 
 /* ==============END COMMANND============== */
@@ -335,8 +336,8 @@ img {
 .logo-footer
 {
     color: var(--white-color);
-    margin-bottom: 20px;
 }
+
 .adress-street-link
 {
     font-style: normal;
@@ -346,6 +347,12 @@ img {
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
+
+.footer .adress
+{
+    margin-top: 20px;
+}
+
 .adress-footer-link
 {
     font-style: normal;
